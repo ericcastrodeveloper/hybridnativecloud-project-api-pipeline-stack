@@ -14,7 +14,7 @@ def main(event, context):
     
     
     responsePipeline = codepipeline.start_pipeline_execution(
-        name='final-project-CD-DEV-app',
+        name='final-project-CD-PROD-app',
     )
     
     response = {
